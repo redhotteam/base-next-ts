@@ -1,8 +1,8 @@
 import "@/assets/styles/index.css";
 
+import { ReactNode } from "react";
 import Metrics from "@/app/metrics";
 import { NextIntlClientProvider } from "next-intl";
-import { ReactNode } from "react";
 
 export const metadata = {
   title: "",
@@ -15,7 +15,7 @@ export const metadata = {
 
 interface RootLayoutProps {
   locale: string;
-  messages: Record<string, any>;
+  messages: Record<string, unknown>;
   children: ReactNode;
 }
 

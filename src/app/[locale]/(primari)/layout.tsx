@@ -1,6 +1,5 @@
 import { BaseLayout } from "@/components";
 
-
 export const metadata = {
   title: "",
   description: "",

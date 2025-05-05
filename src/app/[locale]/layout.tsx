@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
 import StoreProvider from "@/app/[locale]/provider";
+import { RootLayout } from "@/components";
 import { routing } from "@/i18n/routing";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { RootLayout } from "@/components";
-
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

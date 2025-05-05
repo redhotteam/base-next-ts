@@ -1,7 +1,6 @@
 import "@/assets/styles/index.css";
+
 import { HelloLayout } from "@/components";
-
-
 
 export const metadata = {
   title: "",
