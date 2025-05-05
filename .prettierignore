@@ -1,0 +1,7 @@
+.next
+.husky
+node_modules
+coverage
+package-lock.json
+.prettierignore
+*.log
